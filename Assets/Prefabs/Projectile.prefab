@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8405675780023898961}
   - component: {fileID: -3180622221768245773}
   m_Layer: 7
-  m_Name: RollingProjectile
+  m_Name: Projectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -128,4 +128,5 @@ MonoBehaviour:
   <ShootForce>k__BackingField: 700
   <ProjectileRigidBody>k__BackingField: {fileID: 8405675780023898961}
   <ProjectileRenderer>k__BackingField: {fileID: 8405675780023898967}
-  <ReturnOnImpact>k__BackingField: 0
+  <TypeOfProjectile>k__BackingField: 1
+  onImpactEvent: {fileID: 11400000, guid: 10e17078be56c9145a0f308dd557d7f8, type: 2}
